@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+    height: 50px;
+}
+
+/* header */
+
+
+.header__logo{
+    width: 114px;
+    height: 41px;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+/* nav */
+.nav__item{
+    text-decoration: none;
+    color: #232E35;
+    margin-right: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+/* nav end  */
+
+.nav__item:hover{
+    color: red;
+}
+
+.nav__item.active{
+    color: red;
+}
+
+.header__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 36px;
+    border: 2px solid #f1f1f1;
+    border-radius: 8px;
+}
+
+.resume__button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232E35;
+}
+.resume__button:hover{
+    color: rgb(0, 255, 76);
+    cursor: pointer;
+}
+
+/* ---------------------------------------------- */
+
+/* intro */
+
+.mynameis{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 7.5px;
+    color: #656D72;
+    text-transform: uppercase;
+}
+
+.line{
+    width: 16px;
+    height: 2px;
+    background-color: #a7a7a7;
+    margin-right: 10px;
+}
+
+.nameis_wrap{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    color: #232E35;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #232E35;
+    max-width: 400px;
+}
+
+.name_color{
+    color:#7e74f1;
+}
+
+.intro_img{
+    width: 1317px;
+    height: 549px;
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* intro */
+
+/* header end  */
